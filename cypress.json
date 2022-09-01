@@ -1,1 +1,10 @@
-{}
+{
+    "baseUrl": "http://the-internet.herokuapp.com",
+    "viewportWidth": 1650,
+    "viewportHeight": 1033,
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 23000,
+    "env": {
+        "url": "https://reqres.in/api"
+    }
+}
