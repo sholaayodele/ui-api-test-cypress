@@ -36,7 +36,7 @@ This repo contains UI e2e testcases for login and API testcases for signup and l
 3. Go into the cloned folder with `cd ui-api-test-cypress`
 4. Run `npm install `
 5. Run `npm install cypress --save-dev`
-6. Run `npm run cy:open` to run all test. Cypress supports multi browser testing, run `cy run cy:run:multiBrowser` to test multi browser.
+6. Run `npm run test` to run all test. Cypress supports multi browser testing, run `npm run cy:run:multiBrowser` to test multi browser.
 
 ## STEPS FOR IMPROVEMENTS
 
