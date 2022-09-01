@@ -1,10 +1,17 @@
 {
-  "name": "submit-qandoo-task",
+  "name": "ui-api-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "cypress run",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "test": "cypress run --headed",
+    "test:firefox": "cypress run --headed --browser firefox",
+    "test:chrome": "cypress run --headed --browser chrome",
+    "cy:run:multiBrowser": "npm run cy:run -- --browser electron --headed & npm run cy:run -- --browser chrome --headed",
+    "cy:open": "cypress open"
   },
   "keywords": [
     "automation",
